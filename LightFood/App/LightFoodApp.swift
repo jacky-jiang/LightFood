@@ -4,7 +4,7 @@ import SwiftUI
 struct LightFoodApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            RootView()
         }
     }
 }

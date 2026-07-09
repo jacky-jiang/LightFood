@@ -6,68 +6,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B001 /* LightFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* LightFoodApp.swift */; };
-		B002 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* AppEnvironment.swift */; };
-		B003 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* AppRouter.swift */; };
-		B004 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* HomeView.swift */; };
-		B005 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* HomeViewModel.swift */; };
-		B006 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* HomeItem.swift */; };
-		B007 /* HomeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* HomeServiceProtocol.swift */; };
-		B008 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* HomeService.swift */; };
-		B009 /* MockHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* MockHomeService.swift */; };
-		B010 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* APIClient.swift */; };
-		B011 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011 /* Endpoint.swift */; };
-		B012 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012 /* APIError.swift */; };
-		B013 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013 /* HomeViewModelTests.swift */; };
-		B014 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* APIClientTests.swift */; };
+		APPB001 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF001 /* AppEnvironment.swift */; };
+		APPB002 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF002 /* AppRouter.swift */; };
+		APPB003 /* LightFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF003 /* LightFoodApp.swift */; };
+		APPB004 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF004 /* APIClient.swift */; };
+		APPB005 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF005 /* APIError.swift */; };
+		APPB006 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF006 /* Endpoint.swift */; };
+		APPB007 /* AIPlanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF007 /* AIPlanViewModel.swift */; };
+		APPB008 /* AIGeneratingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF008 /* AIGeneratingView.swift */; };
+		APPB009 /* AIIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF009 /* AIIntroView.swift */; };
+		APPB010 /* AIPreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF010 /* AIPreferencesView.swift */; };
+		APPB011 /* AIResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF011 /* AIResultView.swift */; };
+		APPB012 /* AITab.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF012 /* AITab.swift */; };
+		APPB013 /* CalorieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF013 /* CalorieDetailView.swift */; };
+		APPB014 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF014 /* HomeViewModel.swift */; };
+		APPB015 /* HomeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF015 /* HomeTab.swift */; };
+		APPB016 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF016 /* HomeView.swift */; };
+		APPB017 /* GoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF017 /* GoalView.swift */; };
+		APPB018 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF018 /* SplashView.swift */; };
+		APPB019 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF019 /* WelcomeView.swift */; };
+		APPB020 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF020 /* ProfileView.swift */; };
+		APPB021 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF021 /* RecipeDetailView.swift */; };
+		APPB022 /* FoodDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF022 /* FoodDetailViewModel.swift */; };
+		APPB023 /* FoodSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF023 /* FoodSearchViewModel.swift */; };
+		APPB024 /* CameraCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF024 /* CameraCaptureView.swift */; };
+		APPB025 /* FoodDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF025 /* FoodDetailView.swift */; };
+		APPB026 /* FoodSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF026 /* FoodSearchView.swift */; };
+		APPB027 /* RecordSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF027 /* RecordSuccessView.swift */; };
+		APPB028 /* RecordTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF028 /* RecordTab.swift */; };
+		APPB029 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF029 /* RecordView.swift */; };
+		APPB030 /* AppRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF030 /* AppRoute.swift */; };
+		APPB031 /* AppFlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF031 /* AppFlowViewModel.swift */; };
+		APPB032 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF032 /* MainTabView.swift */; };
+		APPB033 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF033 /* RootView.swift */; };
+		APPB034 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF034 /* StatsViewModel.swift */; };
+		APPB035 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF035 /* StatsView.swift */; };
+		APPB036 /* CalorieRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF036 /* CalorieRing.swift */; };
+		APPB037 /* CommonComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF037 /* CommonComponents.swift */; };
+		APPB038 /* FoodRows.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF038 /* FoodRows.swift */; };
+		APPB039 /* RemoteThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF039 /* RemoteThumbnail.swift */; };
+		APPB040 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF040 /* Theme.swift */; };
+		APPB041 /* DietRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF041 /* DietRecord.swift */; };
+		APPB042 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF042 /* Food.swift */; };
+		APPB043 /* GoalOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF043 /* GoalOption.swift */; };
+		APPB044 /* MealType.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF044 /* MealType.swift */; };
+		APPB045 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF045 /* Recipe.swift */; };
+		APPB046 /* FoodCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF046 /* FoodCatalog.swift */; };
+		APPB047 /* FoodCatalogProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF047 /* FoodCatalogProviding.swift */; };
+		APPB048 /* DiaryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = APPF048 /* DiaryStore.swift */; };
+		TSTB001 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF001 /* APIClientTests.swift */; };
+		TSTB002 /* AIPlanViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF002 /* AIPlanViewModelTests.swift */; };
+		TSTB003 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF003 /* HomeViewModelTests.swift */; };
+		TSTB004 /* FoodDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF004 /* FoodDetailViewModelTests.swift */; };
+		TSTB005 /* FoodSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF005 /* FoodSearchViewModelTests.swift */; };
+		TSTB006 /* AppFlowViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF006 /* AppFlowViewModelTests.swift */; };
+		TSTB007 /* StatsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF007 /* StatsViewModelTests.swift */; };
+		TSTB008 /* DiaryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF008 /* DiaryStoreTests.swift */; };
+		TSTB009 /* FoodCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF009 /* FoodCatalogTests.swift */; };
+		TSTB010 /* FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF010 /* FoodTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		P001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = PROJ /* Project object */; proxyType = 1; remoteGlobalIDString = T001; remoteInfo = LightFood; };
+		P001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = PROJ /* Project object */; proxyType = 1; remoteGlobalIDString = A00000000000000000000040; remoteInfo = LightFood; };
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		PRD1 /* LightFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		PRD2 /* LightFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F001 /* LightFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LightFoodApp.swift; sourceTree = "<group>"; };
-		F002 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppEnvironment.swift; sourceTree = "<group>"; };
-		F003 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppRouter.swift; sourceTree = "<group>"; };
-		F004 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Views/HomeView.swift; sourceTree = "<group>"; };
-		F005 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
-		F006 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Models/HomeItem.swift; sourceTree = "<group>"; };
-		F007 /* HomeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Services/HomeServiceProtocol.swift; sourceTree = "<group>"; };
-		F008 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Services/HomeService.swift; sourceTree = "<group>"; };
-		F009 /* MockHomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Mocks/MockHomeService.swift; sourceTree = "<group>"; };
-		F010 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIClient.swift; sourceTree = "<group>"; };
-		F011 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/Endpoint.swift; sourceTree = "<group>"; };
-		F012 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIError.swift; sourceTree = "<group>"; };
-		F013 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeViewModelTests.swift; sourceTree = "<group>"; };
-		F014 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIClientTests.swift; sourceTree = "<group>"; };
+		APPF001 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppEnvironment.swift; sourceTree = "<group>"; };
+		APPF002 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppRouter.swift; sourceTree = "<group>"; };
+		APPF003 /* LightFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LightFoodApp.swift; sourceTree = "<group>"; };
+		APPF004 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIClient.swift; sourceTree = "<group>"; };
+		APPF005 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIError.swift; sourceTree = "<group>"; };
+		APPF006 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/Endpoint.swift; sourceTree = "<group>"; };
+		APPF007 /* AIPlanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/ViewModels/AIPlanViewModel.swift; sourceTree = "<group>"; };
+		APPF008 /* AIGeneratingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/Views/AIGeneratingView.swift; sourceTree = "<group>"; };
+		APPF009 /* AIIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/Views/AIIntroView.swift; sourceTree = "<group>"; };
+		APPF010 /* AIPreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/Views/AIPreferencesView.swift; sourceTree = "<group>"; };
+		APPF011 /* AIResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/Views/AIResultView.swift; sourceTree = "<group>"; };
+		APPF012 /* AITab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/Views/AITab.swift; sourceTree = "<group>"; };
+		APPF013 /* CalorieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/CalorieDetail/Views/CalorieDetailView.swift; sourceTree = "<group>"; };
+		APPF014 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		APPF015 /* HomeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Views/HomeTab.swift; sourceTree = "<group>"; };
+		APPF016 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Views/HomeView.swift; sourceTree = "<group>"; };
+		APPF017 /* GoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Onboarding/Views/GoalView.swift; sourceTree = "<group>"; };
+		APPF018 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Onboarding/Views/SplashView.swift; sourceTree = "<group>"; };
+		APPF019 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Onboarding/Views/WelcomeView.swift; sourceTree = "<group>"; };
+		APPF020 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Profile/Views/ProfileView.swift; sourceTree = "<group>"; };
+		APPF021 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Recipe/Views/RecipeDetailView.swift; sourceTree = "<group>"; };
+		APPF022 /* FoodDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/ViewModels/FoodDetailViewModel.swift; sourceTree = "<group>"; };
+		APPF023 /* FoodSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/ViewModels/FoodSearchViewModel.swift; sourceTree = "<group>"; };
+		APPF024 /* CameraCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/Views/CameraCaptureView.swift; sourceTree = "<group>"; };
+		APPF025 /* FoodDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/Views/FoodDetailView.swift; sourceTree = "<group>"; };
+		APPF026 /* FoodSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/Views/FoodSearchView.swift; sourceTree = "<group>"; };
+		APPF027 /* RecordSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/Views/RecordSuccessView.swift; sourceTree = "<group>"; };
+		APPF028 /* RecordTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/Views/RecordTab.swift; sourceTree = "<group>"; };
+		APPF029 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/Views/RecordView.swift; sourceTree = "<group>"; };
+		APPF030 /* AppRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Root/Navigation/AppRoute.swift; sourceTree = "<group>"; };
+		APPF031 /* AppFlowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Root/ViewModels/AppFlowViewModel.swift; sourceTree = "<group>"; };
+		APPF032 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Root/Views/MainTabView.swift; sourceTree = "<group>"; };
+		APPF033 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Root/Views/RootView.swift; sourceTree = "<group>"; };
+		APPF034 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Stats/ViewModels/StatsViewModel.swift; sourceTree = "<group>"; };
+		APPF035 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Stats/Views/StatsView.swift; sourceTree = "<group>"; };
+		APPF036 /* CalorieRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DesignSystem/CalorieRing.swift; sourceTree = "<group>"; };
+		APPF037 /* CommonComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DesignSystem/CommonComponents.swift; sourceTree = "<group>"; };
+		APPF038 /* FoodRows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DesignSystem/FoodRows.swift; sourceTree = "<group>"; };
+		APPF039 /* RemoteThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DesignSystem/RemoteThumbnail.swift; sourceTree = "<group>"; };
+		APPF040 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DesignSystem/Theme.swift; sourceTree = "<group>"; };
+		APPF041 /* DietRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Models/DietRecord.swift; sourceTree = "<group>"; };
+		APPF042 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Models/Food.swift; sourceTree = "<group>"; };
+		APPF043 /* GoalOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Models/GoalOption.swift; sourceTree = "<group>"; };
+		APPF044 /* MealType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Models/MealType.swift; sourceTree = "<group>"; };
+		APPF045 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Models/Recipe.swift; sourceTree = "<group>"; };
+		APPF046 /* FoodCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Services/FoodCatalog.swift; sourceTree = "<group>"; };
+		APPF047 /* FoodCatalogProviding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Services/FoodCatalogProviding.swift; sourceTree = "<group>"; };
+		APPF048 /* DiaryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Stores/DiaryStore.swift; sourceTree = "<group>"; };
+		TSTF001 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIClientTests.swift; sourceTree = "<group>"; };
+		TSTF002 /* AIPlanViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/AI/AIPlanViewModelTests.swift; sourceTree = "<group>"; };
+		TSTF003 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeViewModelTests.swift; sourceTree = "<group>"; };
+		TSTF004 /* FoodDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/FoodDetailViewModelTests.swift; sourceTree = "<group>"; };
+		TSTF005 /* FoodSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Record/FoodSearchViewModelTests.swift; sourceTree = "<group>"; };
+		TSTF006 /* AppFlowViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Root/AppFlowViewModelTests.swift; sourceTree = "<group>"; };
+		TSTF007 /* StatsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Stats/StatsViewModelTests.swift; sourceTree = "<group>"; };
+		TSTF008 /* DiaryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DiaryStoreTests.swift; sourceTree = "<group>"; };
+		TSTF009 /* FoodCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/FoodCatalogTests.swift; sourceTree = "<group>"; };
+		TSTF010 /* FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/FoodTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		G000 = {isa = PBXGroup; children = (G001, G002, G003); sourceTree = "<group>"; };
-		G001 /* LightFood */ = {isa = PBXGroup; children = (F001, F002, F003, F004, F005, F006, F007, F008, F009, F010, F011, F012); path = LightFood; sourceTree = "<group>"; };
-		G002 /* LightFoodTests */ = {isa = PBXGroup; children = (F013, F014); path = LightFoodTests; sourceTree = "<group>"; };
+		G001 /* LightFood */ = {isa = PBXGroup; children = (APPF001, APPF002, APPF003, APPF004, APPF005, APPF006, APPF007, APPF008, APPF009, APPF010, APPF011, APPF012, APPF013, APPF014, APPF015, APPF016, APPF017, APPF018, APPF019, APPF020, APPF021, APPF022, APPF023, APPF024, APPF025, APPF026, APPF027, APPF028, APPF029, APPF030, APPF031, APPF032, APPF033, APPF034, APPF035, APPF036, APPF037, APPF038, APPF039, APPF040, APPF041, APPF042, APPF043, APPF044, APPF045, APPF046, APPF047, APPF048); path = LightFood; sourceTree = "<group>"; };
+		G002 /* LightFoodTests */ = {isa = PBXGroup; children = (TSTF001, TSTF002, TSTF003, TSTF004, TSTF005, TSTF006, TSTF007, TSTF008, TSTF009, TSTF010); path = LightFoodTests; sourceTree = "<group>"; };
 		G003 /* Products */ = {isa = PBXGroup; children = (PRD1, PRD2); name = Products; sourceTree = "<group>"; };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		T001 /* LightFood */ = {isa = PBXNativeTarget; buildConfigurationList = CLT1; buildPhases = (S001); buildRules = (); dependencies = (); name = LightFood; productName = LightFood; productReference = PRD1; productType = "com.apple.product-type.application"; };
-		T002 /* LightFoodTests */ = {isa = PBXNativeTarget; buildConfigurationList = CLT2; buildPhases = (S002); buildRules = (); dependencies = (D001); name = LightFoodTests; productName = LightFoodTests; productReference = PRD2; productType = "com.apple.product-type.bundle.unit-test"; };
+		A00000000000000000000040 /* LightFood */ = {isa = PBXNativeTarget; buildConfigurationList = CLT1; buildPhases = (S001); buildRules = (); dependencies = (); name = LightFood; productName = LightFood; productReference = PRD1; productType = "com.apple.product-type.application"; };
+		A00000000000000000000041 /* LightFoodTests */ = {isa = PBXNativeTarget; buildConfigurationList = CLT2; buildPhases = (S002); buildRules = (); dependencies = (D001); name = LightFoodTests; productName = LightFoodTests; productReference = PRD2; productType = "com.apple.product-type.bundle.unit-test"; };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		PROJ /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {T001 = {CreatedOnToolsVersion = 15.0;}; T002 = {CreatedOnToolsVersion = 15.0; TestTargetID = T001;};};}; buildConfigurationList = CLP1; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = G000; productRefGroup = G003; projectDirPath = ""; projectRoot = ""; targets = (T001, T002); };
+		PROJ /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {A00000000000000000000040 = {CreatedOnToolsVersion = 15.0;}; A00000000000000000000041 = {CreatedOnToolsVersion = 15.0; TestTargetID = A00000000000000000000040;};};}; buildConfigurationList = CLP1; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = G000; productRefGroup = G003; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000040, A00000000000000000000041); };
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		S001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B001, B002, B003, B004, B005, B006, B007, B008, B009, B010, B011, B012); runOnlyForDeploymentPostprocessing = 0; };
-		S002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B013, B014); runOnlyForDeploymentPostprocessing = 0; };
+		S001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (APPB001, APPB002, APPB003, APPB004, APPB005, APPB006, APPB007, APPB008, APPB009, APPB010, APPB011, APPB012, APPB013, APPB014, APPB015, APPB016, APPB017, APPB018, APPB019, APPB020, APPB021, APPB022, APPB023, APPB024, APPB025, APPB026, APPB027, APPB028, APPB029, APPB030, APPB031, APPB032, APPB033, APPB034, APPB035, APPB036, APPB037, APPB038, APPB039, APPB040, APPB041, APPB042, APPB043, APPB044, APPB045, APPB046, APPB047, APPB048); runOnlyForDeploymentPostprocessing = 0; };
+		S002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (TSTB001, TSTB002, TSTB003, TSTB004, TSTB005, TSTB006, TSTB007, TSTB008, TSTB009, TSTB010); runOnlyForDeploymentPostprocessing = 0; };
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = T001 /* LightFood */; targetProxy = P001 /* PBXContainerItemProxy */; };
+		D001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A00000000000000000000040 /* LightFood */; targetProxy = P001 /* PBXContainerItemProxy */; };
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
