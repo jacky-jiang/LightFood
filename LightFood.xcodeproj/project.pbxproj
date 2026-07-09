@@ -1,0 +1,89 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B001 /* LightFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001 /* LightFoodApp.swift */; };
+		B002 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F002 /* AppEnvironment.swift */; };
+		B003 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F003 /* AppRouter.swift */; };
+		B004 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F004 /* HomeView.swift */; };
+		B005 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F005 /* HomeViewModel.swift */; };
+		B006 /* HomeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F006 /* HomeItem.swift */; };
+		B007 /* HomeServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F007 /* HomeServiceProtocol.swift */; };
+		B008 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F008 /* HomeService.swift */; };
+		B009 /* MockHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F009 /* MockHomeService.swift */; };
+		B010 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F010 /* APIClient.swift */; };
+		B011 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F011 /* Endpoint.swift */; };
+		B012 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F012 /* APIError.swift */; };
+		B013 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F013 /* HomeViewModelTests.swift */; };
+		B014 /* APIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F014 /* APIClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		P001 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = PROJ /* Project object */; proxyType = 1; remoteGlobalIDString = T001; remoteInfo = LightFood; };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		PRD1 /* LightFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		PRD2 /* LightFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LightFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F001 /* LightFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/LightFoodApp.swift; sourceTree = "<group>"; };
+		F002 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppEnvironment.swift; sourceTree = "<group>"; };
+		F003 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppRouter.swift; sourceTree = "<group>"; };
+		F004 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Views/HomeView.swift; sourceTree = "<group>"; };
+		F005 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/ViewModels/HomeViewModel.swift; sourceTree = "<group>"; };
+		F006 /* HomeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Models/HomeItem.swift; sourceTree = "<group>"; };
+		F007 /* HomeServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Services/HomeServiceProtocol.swift; sourceTree = "<group>"; };
+		F008 /* HomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Services/HomeService.swift; sourceTree = "<group>"; };
+		F009 /* MockHomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/Mocks/MockHomeService.swift; sourceTree = "<group>"; };
+		F010 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIClient.swift; sourceTree = "<group>"; };
+		F011 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/Endpoint.swift; sourceTree = "<group>"; };
+		F012 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIError.swift; sourceTree = "<group>"; };
+		F013 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Features/Home/HomeViewModelTests.swift; sourceTree = "<group>"; };
+		F014 /* APIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Networking/APIClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		G000 = {isa = PBXGroup; children = (G001, G002, G003); sourceTree = "<group>"; };
+		G001 /* LightFood */ = {isa = PBXGroup; children = (F001, F002, F003, F004, F005, F006, F007, F008, F009, F010, F011, F012); path = LightFood; sourceTree = "<group>"; };
+		G002 /* LightFoodTests */ = {isa = PBXGroup; children = (F013, F014); path = LightFoodTests; sourceTree = "<group>"; };
+		G003 /* Products */ = {isa = PBXGroup; children = (PRD1, PRD2); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T001 /* LightFood */ = {isa = PBXNativeTarget; buildConfigurationList = CLT1; buildPhases = (S001); buildRules = (); dependencies = (); name = LightFood; productName = LightFood; productReference = PRD1; productType = "com.apple.product-type.application"; };
+		T002 /* LightFoodTests */ = {isa = PBXNativeTarget; buildConfigurationList = CLT2; buildPhases = (S002); buildRules = (); dependencies = (D001); name = LightFoodTests; productName = LightFoodTests; productReference = PRD2; productType = "com.apple.product-type.bundle.unit-test"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PROJ /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {T001 = {CreatedOnToolsVersion = 15.0;}; T002 = {CreatedOnToolsVersion = 15.0; TestTargetID = T001;};};}; buildConfigurationList = CLP1; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = G000; productRefGroup = G003; projectDirPath = ""; projectRoot = ""; targets = (T001, T002); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		S001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B001, B002, B003, B004, B005, B006, B007, B008, B009, B010, B011, B012); runOnlyForDeploymentPostprocessing = 0; };
+		S002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (B013, B014); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = T001 /* LightFood */; targetProxy = P001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BC01 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.LightFood; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		BC02 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; ENABLE_PREVIEWS = YES; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.LightFood; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+		BC03 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.LightFoodTests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightFood";}; name = Debug; };
+		BC04 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {BUNDLE_LOADER = "$(TEST_HOST)"; CODE_SIGN_STYLE = Automatic; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.LightFoodTests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SWIFT_VERSION = 5.0; TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LightFood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LightFood";}; name = Release; };
+		BC05 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {}; name = Debug; };
+		BC06 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CLT1 = {isa = XCConfigurationList; buildConfigurations = (BC01, BC02); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		CLT2 = {isa = XCConfigurationList; buildConfigurations = (BC03, BC04); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		CLP1 = {isa = XCConfigurationList; buildConfigurations = (BC05, BC06); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = PROJ /* Project object */;
+}
