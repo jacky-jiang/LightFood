@@ -14,9 +14,10 @@ struct WelcomeView: View {
             }
             .padding(.top, 8)
 
-            heroImage
+            Color.clear
                 .frame(maxWidth: .infinity)
                 .frame(height: 288)
+                .overlay { heroImage }
                 .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
                 .shadow(color: Theme.green.opacity(0.14), radius: 20, x: 0, y: 16)
                 .padding(.top, 30)

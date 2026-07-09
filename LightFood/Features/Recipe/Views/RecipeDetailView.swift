@@ -8,9 +8,10 @@ struct RecipeDetailView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 0) {
-                heroImage
-                    .frame(height: 250)
+                Color.clear
                     .frame(maxWidth: .infinity)
+                    .frame(height: 250)
+                    .overlay { heroImage }
                     .clipped()
 
                 VStack(alignment: .leading, spacing: 0) {
