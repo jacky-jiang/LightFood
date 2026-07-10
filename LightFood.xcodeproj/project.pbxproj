@@ -64,6 +64,7 @@
 		TSTB008 /* DiaryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF008 /* DiaryStoreTests.swift */; };
 		TSTB009 /* FoodCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF009 /* FoodCatalogTests.swift */; };
 		TSTB010 /* FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF010 /* FoodTests.swift */; };
+		RESB001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = RESF001 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,23 +132,28 @@
 		TSTF008 /* DiaryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DiaryStoreTests.swift; sourceTree = "<group>"; };
 		TSTF009 /* FoodCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/FoodCatalogTests.swift; sourceTree = "<group>"; };
 		TSTF010 /* FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/FoodTests.swift; sourceTree = "<group>"; };
+		RESF001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		G000 = {isa = PBXGroup; children = (G001, G002, G003); sourceTree = "<group>"; };
-		G001 /* LightFood */ = {isa = PBXGroup; children = (APPF001, APPF002, APPF003, APPF004, APPF005, APPF006, APPF007, APPF008, APPF009, APPF010, APPF011, APPF012, APPF013, APPF014, APPF015, APPF016, APPF017, APPF018, APPF019, APPF020, APPF021, APPF022, APPF023, APPF024, APPF025, APPF026, APPF027, APPF028, APPF029, APPF030, APPF031, APPF032, APPF033, APPF034, APPF035, APPF036, APPF037, APPF038, APPF039, APPF040, APPF041, APPF042, APPF043, APPF044, APPF045, APPF046, APPF047, APPF048); path = LightFood; sourceTree = "<group>"; };
+		G001 /* LightFood */ = {isa = PBXGroup; children = (APPF001, APPF002, APPF003, APPF004, APPF005, APPF006, APPF007, APPF008, APPF009, APPF010, APPF011, APPF012, APPF013, APPF014, APPF015, APPF016, APPF017, APPF018, APPF019, APPF020, APPF021, APPF022, APPF023, APPF024, APPF025, APPF026, APPF027, APPF028, APPF029, APPF030, APPF031, APPF032, APPF033, APPF034, APPF035, APPF036, APPF037, APPF038, APPF039, APPF040, APPF041, APPF042, APPF043, APPF044, APPF045, APPF046, APPF047, APPF048, RESF001); path = LightFood; sourceTree = "<group>"; };
 		G002 /* LightFoodTests */ = {isa = PBXGroup; children = (TSTF001, TSTF002, TSTF003, TSTF004, TSTF005, TSTF006, TSTF007, TSTF008, TSTF009, TSTF010); path = LightFoodTests; sourceTree = "<group>"; };
 		G003 /* Products */ = {isa = PBXGroup; children = (PRD1, PRD2); name = Products; sourceTree = "<group>"; };
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A00000000000000000000040 /* LightFood */ = {isa = PBXNativeTarget; buildConfigurationList = CLT1; buildPhases = (S001); buildRules = (); dependencies = (); name = LightFood; productName = LightFood; productReference = PRD1; productType = "com.apple.product-type.application"; };
+		A00000000000000000000040 /* LightFood */ = {isa = PBXNativeTarget; buildConfigurationList = CLT1; buildPhases = (S001, RSP1); buildRules = (); dependencies = (); name = LightFood; productName = LightFood; productReference = PRD1; productType = "com.apple.product-type.application"; };
 		A00000000000000000000041 /* LightFoodTests */ = {isa = PBXNativeTarget; buildConfigurationList = CLT2; buildPhases = (S002); buildRules = (); dependencies = (D001); name = LightFoodTests; productName = LightFoodTests; productReference = PRD2; productType = "com.apple.product-type.bundle.unit-test"; };
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		PROJ /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1500; LastUpgradeCheck = 1500; TargetAttributes = {A00000000000000000000040 = {CreatedOnToolsVersion = 15.0;}; A00000000000000000000041 = {CreatedOnToolsVersion = 15.0; TestTargetID = A00000000000000000000040;};};}; buildConfigurationList = CLP1; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = G000; productRefGroup = G003; projectDirPath = ""; projectRoot = ""; targets = (A00000000000000000000040, A00000000000000000000041); };
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RSP1 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (RESB001); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		S001 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (APPB001, APPB002, APPB003, APPB004, APPB005, APPB006, APPB007, APPB008, APPB009, APPB010, APPB011, APPB012, APPB013, APPB014, APPB015, APPB016, APPB017, APPB018, APPB019, APPB020, APPB021, APPB022, APPB023, APPB024, APPB025, APPB026, APPB027, APPB028, APPB029, APPB030, APPB031, APPB032, APPB033, APPB034, APPB035, APPB036, APPB037, APPB038, APPB039, APPB040, APPB041, APPB042, APPB043, APPB044, APPB045, APPB046, APPB047, APPB048); runOnlyForDeploymentPostprocessing = 0; };
