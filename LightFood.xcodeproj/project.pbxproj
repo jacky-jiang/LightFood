@@ -65,6 +65,7 @@
 		TSTB008 /* Shared/DiaryStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF008 /* Shared/DiaryStoreTests.swift */; };
 		TSTB009 /* Shared/FoodCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF009 /* Shared/FoodCatalogTests.swift */; };
 		TSTB010 /* Shared/FoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = TSTF010 /* Shared/FoodTests.swift */; };
+		RESB001 /* Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = RESF001 /* Resources/Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -138,6 +139,7 @@
 		TSTF008 /* Shared/DiaryStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/DiaryStoreTests.swift; sourceTree = "<group>"; };
 		TSTF009 /* Shared/FoodCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/FoodCatalogTests.swift; sourceTree = "<group>"; };
 		TSTF010 /* Shared/FoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/FoodTests.swift; sourceTree = "<group>"; };
+		RESF001 /* Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -201,6 +203,7 @@
 				APPF046 /* Shared/Services/FoodCatalog.swift */,
 				APPF047 /* Shared/Services/FoodCatalogProviding.swift */,
 				APPF048 /* Shared/Stores/DiaryStore.swift */,
+				RESF001 /* Resources/Assets.xcassets */,
 			);
 			path = LightFood;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildConfigurationList = CLT1 /* Build configuration list for PBXNativeTarget "LightFood" */;
 			buildPhases = (
 				S001 /* Sources */,
+				RSP1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -302,6 +306,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RSP1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				RESB001 /* Resources/Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		S001 /* Sources */ = {
