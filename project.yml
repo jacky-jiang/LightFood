@@ -22,6 +22,7 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.example.LightFood
         INFOPLIST_KEY_CFBundleDisplayName: LightFood
         INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
 
   LightFoodTests:
     type: bundle.unit-test
